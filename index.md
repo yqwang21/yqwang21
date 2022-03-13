@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yqwang21/yqwang21/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -25,7 +37,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-$$k_1$$
+$k_1$
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
